@@ -26,14 +26,14 @@ https://github.com/minwoominwoominwoo7/bluetoothSerial/tree/master/Arduino/YUN_H
 # 프로토콜 추가된 사항    
 파워포인트를 기반으로 하고 아래 부분을 추가함.     
 1. 전체 길이를 255 byte로 고정하고 아래처럼 고정 위치에 데이타 할당    
-Type 0~0 Byte 할당   
+Type 0 ~ 0 Byte 할당   
 Value 1 ~ 200 Byte 할당   
  - 1 ~ 50 Byte 가게 이름 할당  ( Type 31일 경우 A5A5로 할당 )   
  - 51 ~ 100 Byte 가게 전화번호 할당    
- - 101 ~150 Byte 메세지 할당  
- - 151 ~200 Byte 가격 할당  
+ - 101 ~ 150 Byte 메세지 할당  
+ - 151 ~ 200 Byte 가격 할당  
 PhoneNum 201 ~ 250 Byte 할당  
-Fcs 251~254 Byte 할당  
+Fcs 251 ~254 Byte 할당  
 2. Value에서 문장의 끝나는 부분을 인지하기 위하여 . 마침표 사용.    
   즉 보낼 내용이 없을 경우더라도 해당 영역에 . 를 넣어 주어야함.   
   ex) char * shopPriceString= ".";  
