@@ -6,7 +6,7 @@ https://github.com/bauerjj/Android-Simple-Bluetooth-Example
 아래 링크위치에 Code 코드 있음   
 https://github.com/minwoominwoominwoo7/bluetoothSerial/tree/master/Android/Android-Simple-Bluetooth-Example-master   
 빌드된 APK 는 아래 위치에 있음   
-https://github.com/minwoominwoominwoo7/bluetoothSerial/tree/master/Android/Android-Simple-Bluetooth-Example-master/app/app-debug.apk   
+https://github.com/minwoominwoominwoo7/bluetoothSerial/blob/master/Android/app-debug.apk    
 
 # 아두이노 code 
 1. ESP32 Feathe( BT 내장 ) board 기반으로 동작 확인    
