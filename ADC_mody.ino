@@ -38,6 +38,6 @@ void loop()
   //Serial.println(vol);
     
   p.publish(&adc_msg);
-
+  delay(50);
   nh.spinOnce();
 }
