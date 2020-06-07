@@ -21,7 +21,7 @@ ros::Publisher p("adc", &adc_msg);
 
 void setup()
 { 
-  pinMode(13, OUTPUT);
+  pinMode(A0, OUTPUT);
   nh.initNode();
 
   nh.advertise(p);
