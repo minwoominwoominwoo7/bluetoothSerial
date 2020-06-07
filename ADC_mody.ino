@@ -32,8 +32,6 @@ int vol;
 
 void loop()
 {
-  
-
   potVal = analogRead(A0);
   vol = map(potVal, 0, 1023,0,100);
   adc_msg.adc0 = vol ;
